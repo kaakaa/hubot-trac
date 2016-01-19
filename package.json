@@ -1,0 +1,47 @@
+{
+  "name": "hubot-trac",
+  "description": "hubot trac",
+  "version": "0.0.1",
+  "author": {
+    "name": "kaakaa",
+    "email": "stooner.hoe@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "trac",
+    "hubot",
+    "hubot-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hubot-scripts/hubot-hubot-trac.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubot-scripts/hubot-hubot-trac/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "xmlrpc": "git://github.com/syaku/node-xmlrpc"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "readme": "# hubot-hubot-trac\n\nhubot trac\n\nSee [`src/hubot-trac.coffee`](src/hubot-trac.coffee) for full documentation.\n\n## Installation\n\nIn hubot project repo, run:\n\n`npm install hubot-hubot-trac --save`\n\nThen add **hubot-hubot-trac** to your `external-scripts.json`:\n\n```json\n[\"hubot-hubot-trac\"]\n```\n\n## Sample Interaction\n\n```\nuser1>> hubot hello\nhubot>> hello!\n```\n",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/hubot-scripts/hubot-hubot-trac#readme",
+  "_id": "hubot-trac@0.0.1",
+  "_shasum": "44f21f76d229f3e0dc33d80e3e34ee5aa7432644",
+  "_from": "node_modules\\hubot-trac",
+  "_resolved": "file:node_modules\\hubot-trac"
+}
